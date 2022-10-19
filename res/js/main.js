@@ -9,13 +9,13 @@ const upgrade3 = document.getElementById("upgrade3");//bakery
 
 let cookies = 0;
 let clickupgrade = 1;
-let clickupgradeprice = 100;
+let clickupgradeprice = 50;
 
 let autoclickerincrease = 0;
-let autoclickerprice = 250;
+let autoclickerprice = 150;
 
 let = bakeryincrease = 0;
-let = bakeryprice = 1000;
+let = bakeryprice = 750;
 
 
 
@@ -29,7 +29,7 @@ cookie.onclick = () => {
 upgrade.onclick = () => {
     if(cookies >= clickupgradeprice){
         cookies -= clickupgradeprice;
-        clickupgradeprice += 100;
+        clickupgradeprice += 50;
         upgrade.innerHTML = `Enchanced Cookie Clicking: ${clickupgradeprice}`;
 
 
@@ -43,7 +43,7 @@ upgrade.onclick = () => {
 upgrade2.onclick = () => {
     if(cookies >= autoclickerprice){
         cookies -= autoclickerprice;
-        autoclickerprice += 250;
+        autoclickerprice += 150;
         upgrade2.innerHTML = `Auto Cookie Clicking: ${autoclickerprice}`;
         counter.innerHTML = cookies;
         
@@ -60,7 +60,7 @@ upgrade2.onclick = () => {
 upgrade3.onclick = () => {
     if(cookies >= bakeryprice){
         cookies -= bakeryprice;
-        bakeryprice += 1000;
+        bakeryprice += 750;
         upgrade3.innerHTML = `Special Cookie Bakery: ${bakeryprice}`;
         counter.innerHTML = cookies;
 

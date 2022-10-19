@@ -1,4 +1,11 @@
+body {
+    background: url("../img/cookiebackground.jpg");
+    background-size:cover;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+
 
 #cookie{
     max-width: 240px;
@@ -12,6 +19,8 @@
     font-family: 'Comic Neue', cursive;
     text-align: center;
     font-size: 24px;
+    color: white;
+    
 }
 
 #upgrade{
@@ -25,3 +34,4 @@
 #upgrade3{
     padding: 10px;
 }
+

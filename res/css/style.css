@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap');
+
+#cookie{
+    max-width: 240px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+#counter{
+    font-family: 'Comic Neue', cursive;
+    text-align: center;
+    font-size: 24px;
+}
+
+#upgrade{
+    padding: 10px;
+}
+
+#upgrade2{
+    padding: 10px;
+}
+
+#upgrade3{
+    padding: 10px;
+}
